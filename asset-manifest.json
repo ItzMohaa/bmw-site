@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bmw-site/static/css/main.6d44c1b7.css",
-    "main.js": "/bmw-site/static/js/main.eb264aba.js",
-    "static/media/logo.png": "/bmw-site/static/media/logo.3e089ae384931175a0e4.png",
-    "static/media/m4.png": "/bmw-site/static/media/m4.207c4bfdd7b49a2b40a9.png",
-    "index.html": "/bmw-site/index.html",
-    "main.6d44c1b7.css.map": "/bmw-site/static/css/main.6d44c1b7.css.map",
-    "main.eb264aba.js.map": "/bmw-site/static/js/main.eb264aba.js.map"
+    "main.css": "/static/css/main.6d44c1b7.css",
+    "main.js": "/static/js/main.2e014ce5.js",
+    "static/media/logo.png": "/static/media/logo.3e089ae384931175a0e4.png",
+    "static/media/m4.png": "/static/media/m4.207c4bfdd7b49a2b40a9.png",
+    "index.html": "/index.html",
+    "main.6d44c1b7.css.map": "/static/css/main.6d44c1b7.css.map",
+    "main.2e014ce5.js.map": "/static/js/main.2e014ce5.js.map"
   },
   "entrypoints": [
     "static/css/main.6d44c1b7.css",
-    "static/js/main.eb264aba.js"
+    "static/js/main.2e014ce5.js"
   ]
 }
