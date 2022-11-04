@@ -38,9 +38,9 @@ const Home = () => {
 
             <AnimatePresence exitBeforeEnter>
             <Routes location={location} key={location.key}>
-                <Route exact path="/bmw-site/" element={<Main/>}/>
-                <Route exact path="/bmw-site/history" element={<History/>}/>
-                <Route exact path="/bmw-site/technology" element={<Technology/>}/>
+                <Route exact path="/" element={<Main/>}/>
+                <Route exact path="/history" element={<History/>}/>
+                <Route exact path="/technology" element={<Technology/>}/>
                 
             </Routes>
             </AnimatePresence>
