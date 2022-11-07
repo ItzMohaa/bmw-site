@@ -1,12 +1,21 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+
 import { useContext } from "react";
 import { VariantContext } from "../Contexts/Variants";
 
 
 
-const History = () => {
+
+const History = ( ) => {
  
-    const variants = useContext(VariantContext)
+
+   
+      
+    
+    const variants = useContext(VariantContext);
+      
+    
     return ( <motion.div  variants={variants} initial="hidden" animate="visible" exit="exit" transition={{duration:1}} className="history">
 
         <div className="history w-2/4 m-16">

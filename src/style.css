@@ -24,6 +24,7 @@
   height: 22%;
   display: flex;
   z-index: 2;
+  background: rgba(255, 255, 255, 0);
 }
 .App .home .navbar .logo {
   margin-left: 4%;

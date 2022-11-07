@@ -4,6 +4,7 @@ import { BsArrowUpRight} from "react-icons/bs";
 import Footer from "./Footer";
 import { useContext } from "react";
 import { VariantContext } from "../Contexts/Variants";
+import { Link } from "react-router-dom";
 import Mcolors from "./Mcolors";
 
 
@@ -19,7 +20,7 @@ const Main = () => {
                 
         <img id= 'mperf' src={Mlogo} alt='Mlogo' />
         <p>Introducing the all-new BMW M Series</p>
-        <button id='discover'>DISCOVER<span><BsArrowUpRight/></span> </button>
+      <Link to='/discover'><button id='discover'>DISCOVER<span><BsArrowUpRight/></span> </button></Link>
 
       
         </motion.div>

@@ -1,13 +1,12 @@
 import Navbar from "./Navbar";
-import Mcolors from "./Mcolors";
 import { useLocation } from "react-router-dom";
-
 import { Route,Routes } from "react-router-dom";
 import Main from "./Main";
 import History from "./History";
 import Technology from "./Technology";
 import { VariantContext } from "../Contexts/Variants";
 import { AnimatePresence } from "framer-motion";
+import Discover from "./Discover";
 
 const Home = () => {
     const variants = {
@@ -28,23 +27,25 @@ const Home = () => {
         }
     };
     const location = useLocation();
+   
     return (
        
 
         <div className="home">
             <VariantContext.Provider value={variants}>
+           
             <Navbar />
             {/* <Mcolors /> */}
 
             <AnimatePresence exitBeforeEnter>
             <Routes location={location} key={location.key}>
                 <Route exact path="/" element={<Main/>}/>
-                <Route exact path="/history" element={<History/>}/>
+                <Route exact path="/history" element={<History />}/>
                 <Route exact path="/technology" element={<Technology/>}/>
+                <Route excat path ='/discover' element={<Discover/>}/>
                 
             </Routes>
             </AnimatePresence>
-           
            
             </VariantContext.Provider>
         </div>
