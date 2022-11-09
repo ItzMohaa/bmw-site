@@ -16,55 +16,51 @@
   width: 100vw;
   background: #f5f3f1;
 }
-.App .home {
-  height: 65vh;
-}
-.App .home .navbar {
+.App .navbar {
   width: 100vw;
-  height: 22%;
+  height: 18%;
   display: flex;
-  z-index: 2;
-  background: rgba(255, 255, 255, 0);
 }
-.App .home .navbar .logo {
+.App .navbar .logo {
   margin-left: 4%;
   max-width: 8%;
 }
-.App .home .navbar .logo img {
+.App .navbar .logo img {
   max-width: 100%;
   padding: 0;
   margin-top: 0.5%;
 }
-.App .home .navbar ul {
+.App .navbar ul {
   @apply flex mt-7 justify-around w-2/5 ml-11;
+  background: rgba(255, 255, 255, 0);
 }
-.App .home .navbar ul li {
+.App .navbar ul li {
   cursor: pointer;
   margin-top: 5%;
   padding: 10%;
   padding-top: 0;
   font-size: 110%;
 }
-.App .home .navbar #btn {
+.App .navbar #btn {
   @apply absolute right-8 top-7 border-solid border-2 border-black p-2 hover:bg-black hover:text-white transition;
 }
-.App .home .main {
-  @apply ml-16 mt-14;
+.App .main {
+  @apply ml-16 mt-2;
   max-width: 50%;
 }
-.App .home .main p {
+.App .main p {
   font-size: 180%;
   color: #000000;
 }
-.App .home .main #discover {
+.App .main #discover {
   @apply border-solid border-2 border-black py-2 px-6 text-start mt-3 w-32 flex justify-between hover:bg-black hover:text-white transition;
 }
-.App .home .main .M {
+.App .main .M {
   max-height: 100vh;
   max-width: 100vw;
   z-index: 3;
 }
-.App .home .mcolors {
+.App .mcolors {
   display: flex;
   position: absolute;
   top: 0;
@@ -72,22 +68,22 @@
   height: 100vh;
   width: 10%;
 }
-.App .home .mcolors .color1 {
+.App .mcolors .color1 {
   height: 100vh;
   width: 33%;
   background: #4e90c4;
 }
-.App .home .mcolors .color2 {
+.App .mcolors .color2 {
   height: 100vh;
   width: 33%;
   background: #063758;
 }
-.App .home .mcolors .color3 {
+.App .mcolors .color3 {
   height: 100vh;
   width: 33%;
   background: #d71f37;
 }
-.App .home .footer {
+.App .footer {
   background: #181818;
   width: 100vw;
   height: 20vh;
@@ -97,48 +93,48 @@
   margin: 0;
   display: flex;
 }
-.App .home .footer img {
+.App .footer img {
   position: absolute;
   max-width: 25%;
   left: 20%;
   bottom: 60%;
 }
-.App .home .footer .details {
+.App .footer .details {
   width: 50%;
   margin-left: 10%;
   margin-top: 3%;
 }
-.App .home .footer .details ul {
+.App .footer .details ul {
   display: flex;
   justify-content: space-around;
 }
-.App .home .footer .details ul li {
+.App .footer .details ul li {
   color: #f5f3f1;
   text-align: center;
   list-style: none;
   font-size: 80%;
   line-height: 200%;
 }
-.App .home .footer .details ul li span {
+.App .footer .details ul li span {
   font-size: 150%;
   font-weight: bold;
 }
-.App .home .footer .pages {
+.App .footer .pages {
   width: 15%;
   height: auto;
   position: absolute;
   right: 10%;
   bottom: 18%;
 }
-.App .home .footer .pages ul {
+.App .footer .pages ul {
   display: flex;
   list-style: none;
   justify-content: space-around;
 }
-.App .home .footer .pages ul li {
+.App .footer .pages ul li {
   @apply text-white -mt-12 text-xl p-2 cursor-pointer;
 }
-.App .home .footer .pages ul #act {
+.App .footer .pages ul #act {
   color: #d71f37;
   text-decoration: underline;
 }
@@ -146,4 +142,8 @@
 .navbar a.active {
   color: #4e90c4;
   transition: 0.2s;
+}
+
+.history {
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
