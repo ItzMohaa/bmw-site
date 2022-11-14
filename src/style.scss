@@ -11,6 +11,7 @@
     ::-webkit-scrollbar {display:none;}
     
     
+    
    
 }
 
@@ -22,19 +23,12 @@ $color1 : #f5f3f1;
     background: $color1;
     
 
-   
-
-    .home {
-
-       height: 65vh;
-
 
         .navbar {
             width: 100vw;
-            height: 22%;
+            height: 18%;
             display: flex;
-            z-index: 2;
-            background: rgba(255,255,255,0);
+      
           
 
           
@@ -54,6 +48,9 @@ $color1 : #f5f3f1;
 
             ul {
                @apply flex mt-7 justify-around w-2/5 ml-11;
+               background: rgba(255,255,255,0);
+
+               
 
                 li {
                     cursor: pointer;
@@ -79,7 +76,7 @@ $color1 : #f5f3f1;
         }
 
         .main {
-            @apply ml-16 mt-14 ;
+            @apply ml-16 mt-2 ;
             max-width: 50%;
 
             p { 
@@ -210,7 +207,7 @@ $color1 : #f5f3f1;
         }
     }
 
-    }
+    
 
 
 }
@@ -218,5 +215,11 @@ $color1 : #f5f3f1;
 .navbar a.active {
     color: #4e90c4;
     transition: 0.2s;
+
+}
+
+.history{
+
+    height: 100vh;
 }
 

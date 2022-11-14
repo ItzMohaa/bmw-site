@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 
 import { useContext } from "react";
 import { VariantContext } from "../Contexts/Variants";
@@ -8,6 +8,9 @@ import { VariantContext } from "../Contexts/Variants";
 
 
 const History = ( ) => {
+
+
+  
  
 
    
@@ -16,9 +19,9 @@ const History = ( ) => {
     const variants = useContext(VariantContext);
       
     
-    return ( <motion.div  variants={variants} initial="hidden" animate="visible" exit="exit" transition={{duration:1}} className="history">
+    return ( <motion.div  variants={variants} initial="hidden" animate="visible" exit="exit" transition={{duration:1}} className="history ">
 
-        <div className="history w-2/4 m-16">
+        <div className="history w-2/4 ml-16 mt-3">
         The official founding date of the German motor vehicle manufacturer BMW is 7 March 1916, when an aircraft producer called Bayerische Flugzeugwerke (formerly Otto Flugmaschine
         nfabrik) was established. This company was renamed to Bayerische Motoren Werke (BMW) in 1922. However, the BMW
          name dates back to 1917, when Rapp Motorenwerke changed its name to Bayerische Motoren Werke. BMW's first product was a straight-s
