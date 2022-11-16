@@ -16,6 +16,19 @@
   width: 100vw;
   background: #f5f3f1;
 }
+.App .technology {
+  @apply w-screen h-screen;
+}
+.App .technology .labels {
+  width: 384px;
+  display: flex;
+  justify-content: center;
+}
+.App .technology .label {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
 .App .navbar {
   width: 100vw;
   height: 18%;
@@ -45,7 +58,7 @@
   @apply absolute right-8 top-7 border-solid border-2 border-black p-2 hover:bg-black hover:text-white transition;
 }
 .App .main {
-  @apply ml-16 mt-2;
+  @apply ml-16 mt-8;
   max-width: 50%;
 }
 .App .main p {
